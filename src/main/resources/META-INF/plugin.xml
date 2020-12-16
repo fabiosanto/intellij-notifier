@@ -15,5 +15,7 @@
     <projectListeners>
         <listener class="com.github.fabiosanto.intellijnotifier.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
+        <listener class="com.github.fabiosanto.intellijnotifier.listeners.MyProjectTaskListener"
+                    topic="com.intellij.task.ProjectTaskListener"/>
     </projectListeners>
 </idea-plugin>

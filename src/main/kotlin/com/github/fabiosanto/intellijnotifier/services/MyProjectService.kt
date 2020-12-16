@@ -5,7 +5,9 @@ import com.github.fabiosanto.intellijnotifier.MyBundle
 
 class MyProjectService(project: Project) {
 
+
     init {
+
         println(MyBundle.message("projectService", project.name))
     }
 }
